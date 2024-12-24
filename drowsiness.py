@@ -6,7 +6,7 @@ import serial
 import time
 
 # Initialize Arduino serial communication
-arduino = serial.Serial('COM4', 9600)  # Replace 'COM3' with your Arduino port
+arduino = serial.Serial('COM4', 9600)  
 
 # Initialize dlib's face detector and facial landmark predictor
 detector = dlib.get_frontal_face_detector()
